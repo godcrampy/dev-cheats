@@ -1,0 +1,23 @@
+@import "../../sass/colors";
+
+.MailBox {
+  margin-top: -100px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  input {
+    border: 3px solid $dark !important;
+  }
+
+  button {
+    border: 3px solid $dark !important;
+    font-weight: bold;
+
+    &:hover {
+      transition: ease-out 0.2s;
+      background-color: $dark !important;
+      color: $background !important;
+    }
+  }
+}

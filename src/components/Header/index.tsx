@@ -2,6 +2,7 @@ import * as React from "react";
 
 import "./Header.scss";
 import macImage from "../../assets/images/tools.png";
+import MailBox from "../MailBox";
 
 export interface HeaderProps {}
 
@@ -18,6 +19,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
           </div>
           <div className="column">
             <img src={macImage} alt="mac computer" />
+            <MailBox />
           </div>
         </div>
       </div>
