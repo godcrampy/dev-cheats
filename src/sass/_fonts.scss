@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "SpaceMono";
+  src: local("SpaceMono"), url("../assets/fonts/SpaceMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: local("WorkSans"), url("../assets/fonts/WorkSans-Regular.ttf") format("truetype");
+}
+
+$mono: "SpaceMono";
+$sans: "WorkSans"

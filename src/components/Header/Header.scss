@@ -1,0 +1,12 @@
+.Header {
+  .flex {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .large {
+    font-size: 5em;
+  }
+}

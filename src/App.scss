@@ -1,12 +1,15 @@
 @import "sass/reset";
 @import "sass/breakpoints";
 @import "sass/colors";
+@import "sass/fonts";
+@import "sass/bulma";
 
 @import "../node_modules/bulma/bulma.sass";
 
 body {
   background-color: $background;
   color: $dark;
+  font-family: $sans;
 
   *::selection {
     background-color: $grey;
@@ -21,6 +24,10 @@ body {
 
   @include medium {
     padding: 4px;
+  }
+
+  .mono {
+    font-family: $mono;
   }
 
 }
