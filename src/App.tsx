@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./App.scss";
+
 export interface AppProps {}
 
 export interface AppState {}

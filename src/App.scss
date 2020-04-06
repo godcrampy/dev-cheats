@@ -1,0 +1,26 @@
+@import "sass/reset";
+@import "sass/breakpoints";
+@import "sass/colors";
+
+@import "../node_modules/bulma/bulma.sass";
+
+body {
+  background-color: $background;
+  color: $dark;
+
+  *::selection {
+    background-color: $grey;
+    color: $light;
+  }
+
+  padding: 15px 12%;
+
+  @include small {
+    padding: 4px;
+  }
+
+  @include medium {
+    padding: 4px;
+  }
+
+}
