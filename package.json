@@ -22,6 +22,14 @@
     "eject": "react-scripts eject",
     "format": "eslint '**/*.tsx' --fix && prettier --write '**/*.tsx'"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.tsx": ["yarn format"]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -38,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.2",
     "prettier": "^2.0.3"
   }
 }
