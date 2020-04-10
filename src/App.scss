@@ -6,8 +6,12 @@
 
 @import "../node_modules/bulma/bulma.sass";
 
-body {
+html {
   background-color: $background;
+}
+
+body {
+  width: 100vw;
   color: $dark;
   font-family: $sans;
 
