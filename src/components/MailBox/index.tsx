@@ -53,7 +53,7 @@ class MailBox extends React.Component<MailBoxProps, MailBoxState> {
         </div>
         <p className="help">
           I'll mail using my personal email. No Spam. No Automations.
-          {!this.state.subscribed && <p className="help center">Subscribed!</p>}
+          {this.state.subscribed && <p className="help center">Subscribed!</p>}
         </p>
       </div>
     );
