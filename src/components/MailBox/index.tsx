@@ -5,7 +5,10 @@ import firebase from "../../config/firebase-config";
 
 export interface MailBoxProps {}
 
-export interface MailBoxState {}
+export interface MailBoxState {
+  subscribed: boolean;
+  mail: string;
+}
 
 class MailBox extends React.Component<MailBoxProps, MailBoxState> {
   state = { subscribed: false, mail: "" };
