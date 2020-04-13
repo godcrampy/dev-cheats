@@ -65,10 +65,14 @@ class Body extends React.Component<BodyProps, BodyState> {
     return (
       <div className="Body">
         <div className="flex">
-          {data.map((e) => {
-            return <Card {...e} />;
+          {data.map((e, i) => {
+            return <Card {...e} key={i} />;
           })}
         </div>
+        <h3 id="bottom" className="title is-4">
+          Cheat-sheet request? Open an{" "}
+          <a href="https://github.com/godcrampy/dev-cheats/issues/new">issue</a>
+        </h3>
       </div>
     );
   }

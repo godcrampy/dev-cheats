@@ -6,4 +6,14 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  #bottom {
+    margin-top: 20px;
+    text-align: center;
+
+    a {
+      text-decoration: underline;
+      color: $dark;
+    }
+  }
 }

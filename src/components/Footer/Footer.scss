@@ -1,0 +1,24 @@
+@import "../../sass/colors";
+
+.Footer {
+  color: $dark !important;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 50px;
+  padding: 1em;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  text-align: center;
+
+  img {
+    width: 22px;
+    margin: 10px;
+  }
+
+  a {
+    font-weight: bold;
+    display: inline;
+    color: $dark !important;
+  }
+}

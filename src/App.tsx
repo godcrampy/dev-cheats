@@ -3,6 +3,7 @@ import React from "react";
 import "./App.scss";
 import Header from "./components/Header";
 import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 export interface AppProps {}
 
@@ -14,6 +15,7 @@ class App extends React.Component<AppProps, AppState> {
       <div id="App">
         <Header />
         <Body />
+        <Footer />
       </div>
     );
   }
