@@ -3,14 +3,14 @@ import { CardProps } from "../Card";
 
 import "./Body.scss";
 
-import git from "../../assets/images/git.png";
-import npm from "../../assets/images/npm.png";
-import docker from "../../assets/images/docker.png";
-import gatsby from "../../assets/images/gatsby.png";
-import markdown from "../../assets/images/markdown.png";
-import regex from "../../assets/images/regex.png";
-import vscode from "../../assets/images/vscode.png";
-import yarn from "../../assets/images/yarn.png";
+import git from "../../assets/images/git.webp";
+import npm from "../../assets/images/npm.webp";
+import docker from "../../assets/images/docker.webp";
+import gatsby from "../../assets/images/gatsby.webp";
+import markdown from "../../assets/images/markdown.webp";
+import regex from "../../assets/images/regex.webp";
+import vscode from "../../assets/images/vscode.webp";
+import yarn from "../../assets/images/yarn.webp";
 import Card from "../Card";
 
 const data: CardProps[] = [

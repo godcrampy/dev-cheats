@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import "./Header.scss";
-import macImage from "../../assets/images/tools.png";
+import macImage from "../../assets/images/tools.webp";
 import MailBox from "../MailBox";
 
 export interface HeaderProps {}
