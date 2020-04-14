@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "eslint '**/*.ts*' --fix && prettier --write '**/*.ts*'"
+    "format": "eslint '**/*.ts*' --fix && prettier --write '**/*.ts*'",
+    "deploy": "./deploy.sh"
   },
   "husky": {
     "hooks": {
