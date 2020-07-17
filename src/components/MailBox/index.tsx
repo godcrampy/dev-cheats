@@ -27,7 +27,11 @@ class MailBox extends React.Component<MailBoxProps, MailBoxState> {
     if (!this.validateEmail(mail)) return;
 
     const db = firebase.firestore();
-    db.collection("emails").add({
+    // db.collection("emails").add({
+    //   mail: this.state.mail,
+    //   source: "dev-cheats",
+    // });
+    db.collection("emails").doc(this.state.mail).set({
       mail: this.state.mail,
       source: "dev-cheats",
     });
